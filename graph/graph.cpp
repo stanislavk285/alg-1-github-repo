@@ -297,7 +297,7 @@ int main() {
     vertexMap["F1"] = &F1;
     vertexMap["B3"] = &B3;
 
-    string filename = "vertices.txt"; // Имя файла
+    string filename = "vershiny.txt"; // Имя файла
     vector<string> vertices = readVertices(filename); // Читаем вершины из файла
 
     // Проверяем, прочитали ли мы три строки
